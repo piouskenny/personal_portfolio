@@ -12,7 +12,7 @@ const Blog_card = () => {
         <div class="p-5 bg-gray-900">
           <a href="#">
             <h5 class="text-white font-bold text-2xl tracking-tight mb-4">
-              Noteworthy technology acquisitions 2021
+              Lorem ipsum dolor sit amet.
             </h5>
           </a>
           <p class="font-normal text-gray-700 mb-3">
