@@ -27,12 +27,12 @@ const skill_item = [
 
 const Skills = () => {
   return (
-    <div className="mt-10 md:mt-40 mb-8 ">
+    <div className="mt-20 md:mt-40 mb-8 ">
       <h1 className="md:text-5xl text-4xl underline underline-white text-green-500">
         My Skills
       </h1>
 
-      <div className="grid md:grid-cols-4 mt-20">
+      <div className="grid md:grid-cols-4 grid-cols-2 md:mt-20 mt-10">
         {
             skill_item.map((skill) => (
                 <Skills_card  img_path={skill.img_path} name={skill.name} content={skill.content}/>

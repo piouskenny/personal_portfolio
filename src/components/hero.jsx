@@ -18,7 +18,7 @@ const Hero = () => {
           Providing Solutions for Online businesses
         </p>
 
-        <button className="rounded-full backdrop-blur-sm bg-white/10  px-10 py-2 mt-6 shadow-md shadow-white/10  transition hover:scale-150">
+        <button className="rounded-full backdrop-blur-sm bg-white/10  px-10 py-2 mt-6 shadow-md shadow-white/10  transition md:hover:scale-150">
           Contact Me &rarr;
         </button>
       </div>
