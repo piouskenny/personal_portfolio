@@ -12,7 +12,7 @@ const Hero = () => {
           <span className="block my-3">
             I'm <span className="text-[#00b853] font-semibold animate-pulse">Piouskenny</span>
           </span>
-          <span className="block text-4xl md:text-5xl">Web Developer</span>
+          <span className="block text-4xl">Web Developer</span>
         </h1>
         <p className="text-gray-600 md:my-10 my-4 text-md font-semibold">
           Providing Solutions for Online businesses

@@ -1,6 +1,7 @@
 import Blog_card from "./sub-components/blog_card";
 
 const blog_content = [{}, {}, {}];
+
 const Blog = () => {
   return (
     <div className="mt-20 md:mt-40 mb-8 ">
@@ -9,7 +10,7 @@ const Blog = () => {
       </h1>
       <div className="grid md:grid-cols-3 space-x-4">
         {blog_content.map((content) => (
-          <Blog_card />
+          <Blog_card/>
         ))}
       </div>
     </div>

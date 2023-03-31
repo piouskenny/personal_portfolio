@@ -1,5 +1,10 @@
 import PortImg from "./sub-components/portImg";
 
+const portfolio_content = () => {
+  
+}
+
+
 const Portfolio = () => {
   return (
     <div className="mt-10 md:mt-40 mb-8 ">
