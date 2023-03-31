@@ -1,9 +1,18 @@
 import PortImg from "./sub-components/portImg";
 
-const portfolio_content = () => {
-  
-}
+const portfolio_content = [
+  {
+    img_source: "images/webopt.jpg",
+  },
 
+  {
+    img_source: "images/edspring.jpg",
+  },
+
+  {
+    img_source: "images/earlyschool.jpg",
+  },
+];
 
 const Portfolio = () => {
   return (
@@ -33,7 +42,11 @@ const Portfolio = () => {
         </div>
       </div>
 
-      <PortImg />
+      <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 pt-10 ">
+        {portfolio_content.map((content) => (
+          <PortImg img_source={content.img_source}/>
+        ))}
+      </div>
     </div>
   );
 };
