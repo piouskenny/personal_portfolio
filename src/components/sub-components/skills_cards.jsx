@@ -5,7 +5,7 @@ const Skills_card = ({img_path, name, Level}) => {
     <>
       <div className="max-w-sm rounded overflow-hidden shadow-white/10 md:shadow-2xl mx-5">
         <img
-          className="w-full h-[200px]"
+          className="w-full md:h-[200px] h-[100px]"
           src={img_path}
           alt="Sunset in the mountains"
         />
