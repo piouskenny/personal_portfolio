@@ -2,7 +2,7 @@ import Hero_img from "../assets/hero.png";
 
 const Hero = () => {
   return (
-    <div className="my-auto mx-auto md:grid grid-cols-2 text-white pt-[6%] gap-12 text-center md:mt-0 mt-10">
+    <div className="my-auto mx-auto md:grid grid-cols-2 text-white pt-[6%] gap-12 text-center md:mt-0 mt-8">
       <div className="col-span-1  md:text-start">
         <p className="text-gray-600 my-1 text-md font-semibold">
           Boosting Sales &rarr; Parthnership
@@ -12,7 +12,7 @@ const Hero = () => {
           <span className="block my-3">
             I'm <span className="text-[#00b853] font-semibold animate-pulse">Piouskenny</span>
           </span>
-          <span className="block">Web Developer</span>
+          <span className="block text-4xl md:text-5xl">Web Developer</span>
         </h1>
         <p className="text-gray-600 md:my-10 my-4 text-md font-semibold">
           Providing Solutions for Online businesses
