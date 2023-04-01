@@ -2,26 +2,30 @@ import Skills_card from "./sub-components/skills_cards";
 
 const skill_item = [
   {
-    img_path: "https://i.pinimg.com/564x/ab/8b/5e/ab8b5ea6637ebd8e5755c838d952b8c1.jpg",
+    text: "text-red-500",
     name: "Laravel",
-    Level: "",
+    skill_color: "bg-red-500",
+    skill_width: "80%"
   },
 
   {
-    img_path: "https://c4.wallpaperflare.com/wallpaper/294/834/442/reactjs-facebook-javascript-minimalism-wallpaper-preview.jpg",
+    text: "text-blue-600",
     name: "React",
-    Level: "",
+    skill_color: "bg-blue-600",
+    skill_width: "90%"
   },
 
   {
-    img_path: "images/skills/wordpress.png",
+    text: "text-gray-400",
     name: "Wordpress",
-    Level: "",
+    skill_color: "bg-gray-400",
+    skill_width: "70%"
   },
   {
-    img_path: "https://static.vecteezy.com/system/resources/previews/003/504/819/non_2x/brain-and-artificial-intelligence-line-icon-brain-innovation-logo-illustration-free-vector.jpg",
+    text: "text-white",
     name: "Machine Learning",
-    Level: "",
+    skill_color: "bg-white",
+    skill_width: "45%"
   }
 ];
 
@@ -32,10 +36,10 @@ const Skills = () => {
         My Skills
       </h1>
 
-      <div className="grid md:grid-cols-4 grid-cols-2 md:mt-20 mt-10">
+      <div className="grid md:grid-cols-2  md:mt-20 mt-10">
         {
             skill_item.map((skill) => (
-                <Skills_card  img_path={skill.img_path} name={skill.name} content={skill.content}/>
+                <Skills_card  text={skill.text} name={skill.name} color={skill.skill_color} width={skill.skill_width}/>
             ))
         }
       </div>
