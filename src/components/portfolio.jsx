@@ -35,7 +35,7 @@ const Portfolio = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="mt-20 rounded-full backdrop-blur-sm bg-white/10 text-white px-10 py-2 shadow-md shadow-white/10  transition md:hover:scale-150">
+            <button className="md:mt-20 mt-4 rounded-full backdrop-blur-sm bg-white/10 text-white px-10 py-2 shadow-md shadow-white/10  transition md:hover:scale-150">
               My GitHub &rarr;
             </button>
           </a>
