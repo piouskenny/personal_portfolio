@@ -2,7 +2,7 @@ import Hero_img from "../assets/hero.png";
 
 const Hero = () => {
   return (
-    <div className="my-auto mx-auto md:grid grid-cols-2 text-white pt-[6%] gap-12 text-center md:mt-0 mt-8">
+    <div className="my-auto mx-auto md:grid grid-cols-2 text-white pt-[6%] gap-12 text-center md:mt-20 mt-20">
       <div className="col-span-1  md:text-start">
         <p className="text-gray-600 my-1 text-md font-semibold">
           Boosting Sales &rarr; Parthnership

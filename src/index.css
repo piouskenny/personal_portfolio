@@ -14,7 +14,7 @@ body {
 
 
 .container {
-    @apply md:px-20 px-2 ;
+    @apply md:px-10 px-2 ;
 }
 
 .animate-bounce-custom {

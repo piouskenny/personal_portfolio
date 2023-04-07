@@ -1,4 +1,4 @@
-const Blog_card = () => {
+const Blog_card = ({title}) => {
   return (
     <div class="max-w-lg mx-auto mt-10 col-span-1">
       <div class="shadow-md borderrounded-lg max-w-sm mb-5">
@@ -12,7 +12,7 @@ const Blog_card = () => {
         <div class="p-5 bg-gray-900">
           <a href="#">
             <h5 class="text-white font-bold text-2xl tracking-tight mb-4">
-              Lorem ipsum dolor sit amet.
+              {title}
             </h5>
           </a>
           <p class="font-normal text-gray-700 mb-3">

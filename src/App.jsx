@@ -4,6 +4,7 @@ import Portfolio from "./components/portfolio";
 import Skills from "./components/skills";
 import Footer from "./components/footer";
 import Blog from "./components/blog";
+
 const App = () => {
   return (
     <>
@@ -20,7 +21,7 @@ const App = () => {
         <div id="skills">
           <Skills />
         </div>
-        <div id="skills">
+        <div id="blog">
           <Blog />
         </div>
       </div>
