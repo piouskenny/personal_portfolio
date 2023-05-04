@@ -37,12 +37,12 @@ const Skills = () => {
       </h1>
 
       <div className="grid md:grid-cols-3 mt-10 mb-4 items-center">
-        <div className="col-span-1 mr-10 items-center text-center">
-          <img src="images/me.JPG" alt="piouskenny"  className="w-full"/>
+        <div className="md:col-span-1 md:mr-10 flex content-center items-center text-center">
+          <img src="images/me.JPG" className="w-fit md:w-full" alt="piouskenny"/>
         </div>
 
-        <div className="col-span-2">
-          <h1 className="text-green-400 cursor-pointer md:text-2xl mb-5">Skills Set and Experience &rarr;</h1>
+        <div className="md:col-span-2">
+          <h1 className="text-green-400 cursor-pointer mt-5 md:mt-0 text-2xl mb-5">Skills Set and Experience &rarr;</h1>
           <p className="text-white ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
             distinctio pariatur, aliquid vitae dolorem magnam temporibus
