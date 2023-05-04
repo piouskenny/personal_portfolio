@@ -1,5 +1,6 @@
 import Hero_img from "../assets/hero.png";
 
+
 const Hero = () => {
   return (
     <div className="my-auto mx-auto md:grid grid-cols-2 text-white pt-[6%] gap-12 text-center md:mt-20 mt-20">

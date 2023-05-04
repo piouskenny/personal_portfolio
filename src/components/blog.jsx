@@ -7,7 +7,9 @@ const Blog = () => {
   const [errorMessage, SetErrorMessage] = useState("");
 
   const FetchPost = async () => {
-    const PostFetch = await axios.get("http://localhost:8000/api/v1/posts").catch(error => SetErrorMessage("No Blog Post Available yet!!!!"));
+    const PostFetch = await axios
+      .get("http://localhost:8000/api/v1/posts")
+      .catch((error) => SetErrorMessage("No Blog Post Available yet!!!!"));
 
     const PostsData = PostFetch.data;
 
@@ -23,9 +25,11 @@ const Blog = () => {
       <h1 className="md:text-5xl text-4xl underline underline-white text-green-500">
         Blog
       </h1>
-      {
-        errorMessage && <p className="text-red-500 font-bold bg-red-200 py-10 md:py-20 md:text-md mt-10 text-center">{errorMessage}</p>
-      }
+      {errorMessage && (
+        <p className="text-red-500 font-bold bg-red-200 py-10 md:py-20 md:text-md mt-10 text-center">
+          {errorMessage}
+        </p>
+      )}
       <div className="grid md:grid-cols-3 space-x-4">
         {Posts.map((post) => (
           <Blog_card key={post.id} title={post.title} />

@@ -1,11 +1,9 @@
 import React from "react";
 
-
-const Skills_card = ({ text, name, color, width}) => {
-
+const Skills_card = ({ text, name, color, width }) => {
   const styles = {
-    width: `${width}`
-  }
+    width: `${width}`,
+  };
 
   return (
     <>
@@ -13,11 +11,14 @@ const Skills_card = ({ text, name, color, width}) => {
         <div className="px-6 py-4">
           <div className={`mt-4 text-xl mb-4 ${text}`}>{name}</div>
 
-        <div className="w-full bg-gray-200 rounded-full h-[15px] dark:bg-gray-700">
-          <div className={ `${color}  h-[15px] text-xs font-medium text-center p-0.5 rounded-full  width leading-none text-black`  } style={styles} >
-            {width}
+          <div className="w-full bg-gray-200 rounded-full h-[10px] dark:bg-gray-700">
+            <div
+              className={`${color}  h-[10px] text-xs font-medium text-center p-0.5 rounded-full  width leading-none text-black`}
+              style={styles}
+            >
+              <p className="text-[9px]">{width}</p>
+            </div>
           </div>
-        </div>
         </div>
       </div>
     </>

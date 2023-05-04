@@ -4,6 +4,7 @@ import Portfolio from "./components/portfolio";
 import Skills from "./components/skills";
 import Footer from "./components/footer";
 import Blog from "./components/blog";
+import Form from "./components/Form";
 
 const App = () => {
   return (
@@ -25,7 +26,6 @@ const App = () => {
           <Blog />
         </div>
       </div>
-
       <Footer />
     </>
   );
