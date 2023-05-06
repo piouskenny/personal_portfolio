@@ -2,6 +2,12 @@ import Skills_card from "./sub-components/skills_cards";
 
 const skill_item = [
   {
+    text: "text-white",
+    name: "PHP",
+    skill_color: "bg-blue-300",
+    skill_width: "90%",
+  },
+  {
     text: "text-red-500",
     name: "Laravel",
     skill_color: "bg-red-500",
@@ -38,11 +44,17 @@ const Skills = () => {
 
       <div className="grid md:grid-cols-3 mt-10 mb-4 items-center">
         <div className="md:col-span-1 md:mr-10 flex content-center items-center text-center">
-          <img src="images/me.JPG" className="w-fit md:w-full" alt="piouskenny"/>
+          <img
+            src="images/me.JPG"
+            className="w-fit md:w-full"
+            alt="piouskenny"
+          />
         </div>
 
         <div className="md:col-span-2">
-          <h1 className="text-green-400 cursor-pointer mt-5 md:mt-0 text-2xl mb-5">Skills Set and Experience &rarr;</h1>
+          <h1 className="text-green-400 cursor-pointer mt-5 md:mt-0 text-2xl mb-5">
+            Skills Set and Experience &rarr;
+          </h1>
           <p className="text-white ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
             distinctio pariatur, aliquid vitae dolorem magnam temporibus
@@ -58,7 +70,6 @@ const Skills = () => {
           </p>
         </div>
       </div>
-
       <div className="grid md:grid-cols-2  md:mt-20 mt-10">
         {skill_item.map((skill) => (
           <Skills_card
