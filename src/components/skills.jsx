@@ -71,7 +71,7 @@ const Skills = () => {
           </p>
 
           <p className="text-white my-2">
-            <span className="block">Skills and Expertise: </span>
+            <span className="block font-bold">Skills and Expertise: </span>
             My technical expertise lies primarily in PHP and the Laravel
             framework, which I leverage to build robust and scalable web
             applications. Additionally, I'm proficient in React, allowing me to
@@ -81,7 +81,7 @@ const Skills = () => {
           </p>
 
           <p className="text-white my-2">
-            <span className="block">Passion for Business Growth:</span>
+            <span className="block font-bold">Passion for Business Growth:</span>
             Beyond the technicalities of web development, my true passion lies
             in helping businesses thrive. I have a keen eye for identifying
             business problems and leveraging technology to solve them
@@ -91,7 +91,7 @@ const Skills = () => {
           </p>
 
           <p className="text-white my-2">
-            <span className="block"> Let's Connect:</span>
+            <span className="block font-bold"> Let's Connect:</span>
             If you're interested in collaborating on a project, discussing
             potential opportunities, or simply want to connect, feel free to
             reach out to me. You can find my contact information and social
