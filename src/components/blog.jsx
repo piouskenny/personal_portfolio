@@ -19,7 +19,7 @@ const Blog = () => {
   useEffect(() => {
     FetchPost();
   }, []);
-  
+
   return (
     <div className="mt-20 md:mt-40 mb-8 ">
       <h1 className="md:text-5xl text-4xl underline underline-white text-green-500">

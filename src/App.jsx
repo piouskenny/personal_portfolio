@@ -18,12 +18,12 @@ const App = () => {
         <div id="portfolio">
           <Portfolio />
         </div>
-
+        {/* <Form /> */}
         <div id="skills">
           <Skills />
         </div>
         <div id="blog">
-          <Blog />
+          {/* <Blog /> */}
         </div>
       </div>
       <Footer />

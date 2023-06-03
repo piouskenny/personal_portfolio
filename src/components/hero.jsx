@@ -1,4 +1,6 @@
 import Hero_img from "../assets/hero.png";
+const apiKey = import.meta.env.VITE_API_KEY;
+const apiUrl = import.meta.env.VITE_BASE_URL;
 
 
 const Hero = () => {
@@ -13,7 +15,7 @@ const Hero = () => {
           <span className="block my-3">
             I'm{" "}
             <span className="text-[#00b853] font-semibold animate-pulse">
-              Piouskenny
+              Piouskenny 
             </span>
           </span>
           <span className="block text-4xl">Web Developer</span>

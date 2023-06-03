@@ -56,17 +56,38 @@ const Skills = () => {
             Skills Set and Experience &rarr;
           </h1>
           <p className="text-white ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-            distinctio pariatur, aliquid vitae dolorem magnam temporibus
-            repellendus provident delectus nam? Dolorem culpa at excepturi
-            quidem laboriosam ea, reprehenderit molestias assumenda laborum
-            adipisci, consectetur fugiat! Quia culpa esse nam repudiandae ipsa
-            ratione ipsam voluptates numquam, expedita hic, quidem perferendis
-            iure explicabo? Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Veritatis labore vero facilis, quod dolore, laboriosam unde
-            minima a odit, magnam fugit nihil reprehenderit necessitatibus.
-            Maiores, illum! Doloribus, voluptas sint harum reiciendis mollitia
-            cupiditate quia, asperiores natus fugit, facilis dolor. Quidem.
+            Welcome to my portfolio website! I'm Kehinde Adekunle Fisayo, but
+            you can call me Piouskenny. I'm an experienced web developer with a
+            passion for helping businesses grow through the power of technology.
+            With a strong focus on PHP and expertise in Laravel and React, I
+            bring innovative solutions to the table.
+          </p>
+          <p className="text-white">
+            Education and Professional Background: I have a solid educational
+            background in web development, equipping me with the necessary
+            skills to excel in this field. Throughout my career, I have honed my
+            craft and gained valuable experience that has contributed to my
+            success as a web developer.
+          </p>
+
+          <p className="text-white">
+            <span className="block">Skills and Expertise: </span>
+            My technical expertise lies primarily in PHP and the Laravel
+            framework, which I leverage to build robust and scalable web
+            applications. Additionally, I'm proficient in React, allowing me to
+            create dynamic and interactive user interfaces. I constantly stay
+            updated with the latest industry trends and technologies, ensuring
+            that I provide cutting-edge solutions to my clients.
+          </p>
+
+          <p className="text-white">
+            <span className="block">Passion for Business Growth:</span>
+            Beyond the technicalities of web development, my true passion lies
+            in helping businesses thrive. I have a keen eye for identifying
+            business problems and leveraging technology to solve them
+            effectively. By combining my technical skills with a deep
+            understanding of business needs, I deliver solutions that drive
+            growth, efficiency, and success.
           </p>
         </div>
       </div>
