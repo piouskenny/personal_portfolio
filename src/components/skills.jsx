@@ -42,7 +42,7 @@ const Skills = () => {
         My Skills
       </h1>
 
-      <div className="grid md:grid-cols-3 mt-10 mb-4 items-center">
+      <div className="grid md:grid-cols-3 mt-10 mb-4 items-center ">
         <div className="md:col-span-1 md:mr-10 flex content-center items-center text-center">
           <img
             src="images/me.JPG"
@@ -62,7 +62,7 @@ const Skills = () => {
             With a strong focus on PHP and expertise in Laravel and React, I
             bring innovative solutions to the table.
           </p>
-          <p className="text-white">
+          <p className="text-white my-2">
             Education and Professional Background: I have a solid educational
             background in web development, equipping me with the necessary
             skills to excel in this field. Throughout my career, I have honed my
@@ -70,7 +70,7 @@ const Skills = () => {
             success as a web developer.
           </p>
 
-          <p className="text-white">
+          <p className="text-white my-2">
             <span className="block">Skills and Expertise: </span>
             My technical expertise lies primarily in PHP and the Laravel
             framework, which I leverage to build robust and scalable web
@@ -80,7 +80,7 @@ const Skills = () => {
             that I provide cutting-edge solutions to my clients.
           </p>
 
-          <p className="text-white">
+          <p className="text-white my-2">
             <span className="block">Passion for Business Growth:</span>
             Beyond the technicalities of web development, my true passion lies
             in helping businesses thrive. I have a keen eye for identifying
@@ -90,7 +90,7 @@ const Skills = () => {
             growth, efficiency, and success.
           </p>
 
-          <p className="text-white">
+          <p className="text-white my-2">
             <span className="block"> Let's Connect:</span>
             If you're interested in collaborating on a project, discussing
             potential opportunities, or simply want to connect, feel free to
