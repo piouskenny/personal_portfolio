@@ -89,6 +89,15 @@ const Skills = () => {
             understanding of business needs, I deliver solutions that drive
             growth, efficiency, and success.
           </p>
+
+          <p className="text-white">
+            <span className="block"> Let's Connect:</span>
+            If you're interested in collaborating on a project, discussing
+            potential opportunities, or simply want to connect, feel free to
+            reach out to me. You can find my contact information and social
+            media handles below. I look forward to hearing from you and
+            exploring how we can work together to bring your ideas to life.
+          </p>
         </div>
       </div>
       <div className="grid md:grid-cols-2  md:mt-20 mt-10">
