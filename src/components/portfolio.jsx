@@ -2,15 +2,23 @@ import PortImg from "./sub-components/portImg";
 
 const portfolio_content = [
   {
-    img_source: "images/webopt.jpg",
+    img_source: "images/bayarealearningproject.png",
   },
 
   {
-    img_source: "images/edspring.jpg",
+    img_source: "images/edspring.png",
   },
 
   {
-    img_source: "images/earlyschool.jpg",
+    img_source: "images/bezalel.png",
+  },
+
+  {
+    img_source: "images/earlyschool.png",
+  },
+
+  {
+    img_source: "images/webopt.png",
   },
 ];
 
@@ -42,7 +50,8 @@ const Portfolio = () => {
         </div>
       </div>
 
-      <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 pt-10 ">
+
+      <div className="grid lg:grid-cols-5 grid-cols-2 pt-10 items-center">
         {portfolio_content.map((content) => (
           <PortImg img_source={content.img_source}/>
         ))}

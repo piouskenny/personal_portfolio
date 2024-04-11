@@ -25,14 +25,8 @@ const skill_item = [
     text: "text-gray-400",
     name: "Wordpress",
     skill_color: "bg-gray-400",
-    skill_width: "70%",
-  },
-  {
-    text: "text-white",
-    name: "Machine Learning",
-    skill_color: "bg-white",
-    skill_width: "45%",
-  },
+    skill_width: "90%",
+  }
 ];
 
 const Skills = () => {
@@ -55,6 +49,7 @@ const Skills = () => {
           <h1 className="text-green-400 cursor-pointer mt-5 md:mt-0 text-2xl mb-5">
             Skills Set and Experience &rarr;
           </h1>
+          <div className="text-sm">
           <p className="text-white ">
             Welcome to my portfolio website! I'm Kehinde Adekunle Fisayo, but
             you can call me Piouskenny. I'm an experienced web developer with a
@@ -90,14 +85,7 @@ const Skills = () => {
             growth, efficiency, and success.
           </p>
 
-          <p className="text-white my-2">
-            <span className="block font-bold"> Let's Connect:</span>
-            If you're interested in collaborating on a project, discussing
-            potential opportunities, or simply want to connect, feel free to
-            reach out to me. You can find my contact information and social
-            media handles below. I look forward to hearing from you and
-            exploring how we can work together to bring your ideas to life.
-          </p>
+          </div>
         </div>
       </div>
       <div className="grid md:grid-cols-2  md:mt-20 mt-10">
